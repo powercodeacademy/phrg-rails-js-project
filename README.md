@@ -14,8 +14,12 @@ For this project, your goal is to expand upon the Rails project you did previous
 
 4. Must use your Rails API and a form to create a resource and render the response without a page refresh. For example, a user might be able to add a comment to a post, and the comment would be serialized, and submitted via an AJAX POST request, with the response being the new object in JSON and then appending that new comment to the DOM using JavaScript (ES6 Template Literals can help out a lot with this).
 
-6. Must translate the JSON responses into Javascript Model Objects. The Model Objects must have at least one method on the prototype. Formatters work really well for this.
+5. Must translate the JSON responses into Javascript Model Objects. The Model Objects must have at least one method on the prototype. Formatters work really well for this.
 Borrowing from the previous example, instead of plainly taking the JSON response of the newly created comment and appending it to the DOM, you would create a Comment prototype object and add a function to that prototype to perhaps concatenate (format) the comments authors first and last name. You would then use the object to append the comment information to the DOM.
+
+6. Your application should conform to Nitro's Ruby linting conventions. This should already be included in your original rails project repo. Running rubocop from your application's root should return a no offenses detected message.
+
+7. Your application should contain at least 2 model test files and at least 1 controller spec file. But the more, the better :). Each file should attempt to provide coverage over a number of public methods or endpoints in your application. Start by adding `rspec` to your `Gemfile`. Review the `Testing` section of the curriculum for some tips on best test practices. `FactoryBot` is also a gem that will need to be added to your project to use test factories. Utilize your instructor, peers, and other Nitro Developers for resources and ideas on what your application should test.
 
 ## Instructions
 
@@ -31,11 +35,6 @@ Borrowing from the previous example, instead of plainly taking the JSON response
 3. Refactor code. 20-30 minutes
 4. Extend the application with a new feature, more data, a different domain etc. 20-30 minutes
 5. Submit an improved version.
-6. Write a README.md.
-
-### What to expect from the instructor review
-
-Project reviews are focused on preparing you for technical interviews. Treat project reviews as if they were technical interviews, in both attitude and technical presentation. Your instructor will deliberately give you a more challenging project review, to give you a better sense of the kind of experience and pressure that you experience during a real technical interview. Most technical interviewers really do want you to succeed. We'll work with you as many times as necessary to get you through the review if you don't nail it the first time (which is quite common and completely OK). However, we will potentially give you a hard time, cut you off, push you on your use of vocabulary and/or your coding choices. We want to try to give you a sense of what a coding interview might be like, so you build the confidence to describe your app and to write code even in a higher pressure, slightly more adversarial environment.
 
 #### Be scrappy.
 - If you make a mistake, correct yourself.
@@ -59,7 +58,6 @@ Project reviews are focused on preparing you for technical interviews. Treat pro
 - Use the best technical vocabulary you can. You will be expected to present yourself as a competent Rails and Javascript developer.
 - Curiosity and willingness to learn are hugely valued in our industry. If there are things you don’t understand, then ask questions at the end of the review for more information. Your instructor will be able to point you to the appropriate section lead or technical coach for more information.
 - Pretend you’re interviewing for a job as a Rails and Javascript developer. We’re looking for competent, passionate people who are excited to learn, build, and grow. You won’t be expected to be an expert, but people who will be good to work with.
-
 
 ## Video Review Resources- AJAX and Rails
 
