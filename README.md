@@ -38,8 +38,7 @@ Borrowing from the previous example, instead of plainly taking the JSON response
 
 #### Be scrappy.
 - If you make a mistake, correct yourself.
-- Think on your feet. We will expect you to be able to explain development concepts to us, as well as expanding on concepts that you have already implemented, but you’ll also have the opportunity to look things up while you're live coding.
-- Explain the details.
+- Think on your feet. We will expect you to be able to explain development concepts to us, as well as expanding on concepts that you have already implemented, but you’ll also have the opportunity to look things up during the review.
 
 #### Make no little plans.
 - Approach live coding with a constructive attitude. You might feel nervous or uncertain, but as long as you are familiar with the section material you should be able to reason your way to a solution.
@@ -47,8 +46,8 @@ Borrowing from the previous example, instead of plainly taking the JSON response
 
 #### Radiate positivity.
 - Present yourself and your project in the best way possible.
-- Be open to feedback, both positive and constructive.
-- If the instructor asks you to complete additional features, or you missed a project requirement, be sure to ask questions in a positive manner without becoming argumentative. Learning to become a developer is complex and challenging, and it’s our job to find the holes in your knowledge and help you fill them. This is to help you become a better developer, not to delay your progress in the program.
+- Be open to feedback, both positive and constructive. We give feedback to help each other get better.
+- If the instructor asks you to complete additional features, or you missed a project requirement, treat this as a learning experience. Becoming a developer is complex and challenging, and it’s our job to find the holes in your knowledge and help you fill them. This is to help you become a better developer, not to delay your progress in the program.
 
 #### Work Together.
 - Our goal is to give you the most thorough technical interview possible in the time allocated. This will include live coding where the instructor might give you one or two pointers, but will for the most part sit back and watch you code.
@@ -56,8 +55,8 @@ Borrowing from the previous example, instead of plainly taking the JSON response
 
 #### Pursue mastery.
 - Use the best technical vocabulary you can. You will be expected to present yourself as a competent Rails and Javascript developer.
-- Curiosity and willingness to learn are hugely valued in our industry. If there are things you don’t understand, then ask questions at the end of the review for more information. Your instructor will be able to point you to the appropriate section lead or technical coach for more information.
-- Pretend you’re interviewing for a job as a Rails and Javascript developer. We’re looking for competent, passionate people who are excited to learn, build, and grow. You won’t be expected to be an expert, but people who will be good to work with.
+- Explain the details - this is your application, you should have a very thorough understanding of how each piece works.
+- Curiosity and willingness to learn are hugely valued in our industry. If there are things you don’t understand, then ask questions at the end of the review for more information.
 
 ## Video Review Resources- AJAX and Rails
 
