@@ -19,7 +19,7 @@ Borrowing from the previous example, instead of plainly taking the JSON response
 
 6. Your application should conform to Nitro's Ruby linting conventions. This should already be included in your original rails project repo. Running rubocop from your application's root should return a no offenses detected message.
 
-7. Your application should contain at least 2 model test files and at least 1 controller spec file. But the more, the better :). Each file should attempt to provide coverage over a number of public methods or endpoints in your application. Start by adding `rspec` to your `Gemfile`. Review the `Testing` section of the curriculum for some tips on best test practices. `FactoryBot` is also a gem that will need to be added to your project to use test factories. Utilize your instructor, peers, and other Nitro Developers for resources and ideas on what your application should test.
+7. Your application should contain at least 2 model test files and at least 1 request spec file. But the more, the better :). Each file should attempt to provide coverage over a number of public methods or endpoints in your application. Start by adding `rspec` to your `Gemfile`. Review the `Testing` section of the curriculum for some tips on best test practices. `FactoryBot` is also a gem that will need to be added to your project to use test factories. Utilize your instructor, peers, and other Nitro Developers for resources and ideas on what your application should test.
 
 ## Instructions
 
