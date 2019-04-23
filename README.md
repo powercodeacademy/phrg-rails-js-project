@@ -2,7 +2,7 @@
 
 ## Overview
 
-For this project, your goal is to expand upon the Rails project you did previously. The goal is to add dynamic features that are possible only through jQuery and a JSON API for your app. **Do not use `remote: true` in this application.**
+For this project, your goal is to expand upon the Rails project you did previously. The goal is to add dynamic features that are possible through jQuery and a JSON API for your app. **Do not use `remote: true` in this application.**
 
 ## Requirements
 
@@ -14,24 +14,23 @@ For this project, your goal is to expand upon the Rails project you did previous
 
 4. Must use your Rails API and a form to create a resource and render the response without a page refresh. For example, a user might be able to add a comment to a post, and submitted via an AJAX POST request, with the response being the new object in JSON and then appending that new comment to the DOM using JavaScript (ES6 Template Literals can help out a lot with this).
 
-5. Must translate the JSON responses into Javascript Model Objects. The Model Objects must have at least one method on the prototype. Formatters work really well for this.
-Borrowing from the previous example, instead of plainly taking the JSON response of the newly created comment and appending it to the DOM, you would create a Comment prototype object and add a function to that prototype to perhaps concatenate (format) the comments authors first and last name. You would then use the object to append the comment information to the DOM.
+5. Must translate the JSON responses into Javascript Model Objects. The Model Objects must have at least one method on the prototype. Formatters work really well for this. Borrowing from the previous example, instead of plainly taking the JSON response of the newly created comment and appending it to the DOM, you would create a Comment prototype object and add a function to that prototype to perhaps concatenate (format) the comments authors first and last name. You would then use the object to append the comment information to the DOM.
 
 6. Your application should conform to Nitro's Ruby linting conventions. This should already be included in your original rails project repo. Running rubocop from your application's root should return a no offenses detected message.
 
-7. Your application should contain at least 2 model test files and at least 1 request spec file. But the more, the better :). Each file should attempt to provide coverage over a number of public methods or endpoints in your application. Start by adding `rspec` to your `Gemfile`. Review the `Testing` section of the curriculum for some tips on best test practices. `FactoryBot` is also a gem that will need to be added to your project to use test factories. Utilize your instructor, peers, and other Nitro Developers for resources and ideas on what your application should test.
+7. Your application should contain at least 4 Model test files (you should have 2 already) and at least 1 request spec files. But the more, the better :). Each file should attempt to provide coverage over a number of public methods or endpoints in your application. Start by adding `rspec` to your `Gemfile`. Review the `Testing` section of the curriculum for some tips on best test practices. `FactoryBot` will also need to be added to your project to use test factories. Utilize your instructor, peers, and other Nitro Developers for resources and ideas on what your application should test.
 
 ## Instructions
 
 1. Make the changes to your existing Rails assessment repo.
-1. Add the spec-js.md file from this repo to the root directory of the project, commit it to Git and push it up to GitHub.
+1. Add the requirements.md file from this repo to the root directory of the project, commit it to Git and push it up to GitHub.
 1. Build your app. Make sure to commit early and commit often. Commit messages should be meaningful (clearly describe what you're doing in the commit) and accurate (there should be nothing in the commit that doesn't match the description in the commit message). Good rule of thumb is to commit every 3-7 mins of actual coding time. Most of your commits should have under 15 lines of code and a 2 line commit is perfectly acceptable. **This is important and you'll be graded on this**.
-1. Make sure to check each box in your spec.md and explain next to each one how you've met the requirement *before* you submit your project.
+1. Make sure to check each box in your requirements.md and explain next to each one how you've met the requirement *before* you submit your project.
 
 ### Be Prepared to:
 
 1. Give minimal description of application, then have the reveiwer walk through it. 5 minutes.
-1. Run down each item in your `spec.md` and explain how you've met each criteria. 2-5 minutes
+1. Run down each item in your `requirements.md` and explain how you've met each criteria. 2-5 minutes
 1. Refactor code. 20-30 minutes
 1. Extend the application with a new feature, more data, etc. 20-30 minutes
 1. Submit an improved version.
