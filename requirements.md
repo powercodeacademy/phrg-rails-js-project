@@ -8,7 +8,7 @@ Specs:
 - [ ] Uses your Rails API and a form to create a resource and render the response without a page refresh.
 - [ ] Translates JSON responses into js model objects.
 - [ ] A js model object has at least one function added to the prototype.
-- [ ] Contains at least 4 model and 1 request test files that reasonably tests your public api.
+- [ ] Contains at least 4 model specs, 2 request specs and one system test that reasonably tests your public api.
 
 Confirm
 - [ ] You have a large number of small Git commits

@@ -18,7 +18,7 @@ For this project, your goal is to expand upon the Rails project you did previous
 
 6. Your application should conform to Nitro's Ruby linting conventions. This should already be included in your original rails project repo. Running rubocop from your application's root should return a no offenses detected message.
 
-7. Your application should contain at least 4 Model test files (you should have 2 already) and at least 1 request spec files. But the more, the better :). Each file should attempt to provide coverage over a number of public methods or endpoints in your application. Start by adding `rspec` to your `Gemfile`. Review the `Testing` section of the curriculum for some tips on best test practices. `FactoryBot` will also need to be added to your project to use test factories. Utilize your instructor, peers, and other Nitro Developers for resources and ideas on what your application should test.
+7. Your application should contain at least 4 Model test files (you should have 2 already), at least two request specs, and at least 1 system test. But the more, the better :). Each file should attempt to provide coverage over a number of public methods or endpoints in your application. Review the `Testing` section of the curriculum for some tips on best test practices. `FactoryBot` will be need to be added to your project to use test factories if it is not already. `Capybara` and `poltergiest` may also need to be added to your project to support your system tests. Utilize your instructor, peers, and other Nitro Developers for resources and ideas on what your application should test.
 
 ## Instructions
 
@@ -29,37 +29,19 @@ For this project, your goal is to expand upon the Rails project you did previous
 
 ### Be Prepared to:
 
-1. Give minimal description of application, then have the reveiwer walk through it. 5 minutes.
-1. Run down each item in your `requirements.md` and explain how you've met each criteria. 2-5 minutes
-1. Refactor code. 20-30 minutes
-1. Extend the application with a new feature, more data, etc. 20-30 minutes
-1. Submit an improved version.
+1. Give minimal description of application, then have the reveiwer walk through it. 2-5 minutes.
+1. Run down each item in your `requirements.md` and explain how you've met each criteria. 5-10 minutes
+1. Refactor code or extend the application with a new feature, more data, etc. 50-55 minutes
 
-#### Be scrappy.
-- If you make a mistake, correct yourself.
-- Think on your feet. We will expect you to be able to explain development concepts to us, as well as expanding on concepts that you have already implemented, but you’ll also have the opportunity to look things up during the review.
-
-#### Make no little plans.
-- Approach live coding with a constructive attitude. You might feel nervous or uncertain, but as long as you are familiar with the section material you should be able to reason your way to a solution.
-- Be proud of your project and your code, and show confidence in it.
-
-#### Radiate positivity.
-- Present yourself and your project in the best way possible.
-- Be open to feedback, both positive and constructive. We give feedback to help each other get better.
-- If the instructor asks you to complete additional features, or you missed a project requirement, treat this as a learning experience. Becoming a developer is complex and challenging, and it’s our job to find the holes in your knowledge and help you fill them. This is to help you become a better developer, not to delay your progress in the program.
-
-#### Work Together.
-- Our goal is to give you the most thorough technical interview possible in the time allocated. This will include live coding where the instructor might give you one or two pointers, but will for the most part sit back and watch you code.
-- Ask clarification questions when you need them. Asking for more details is always ok.
-
-#### Pursue mastery.
-- Use the best technical vocabulary you can. You will be expected to present yourself as a competent Rails and Javascript developer.
-- Explain the details - this is your application, you should have a very thorough understanding of how each piece works.
-- Curiosity and willingness to learn are hugely valued in our industry. If there are things you don’t understand, then ask questions at the end of the review for more information.
-
-## Video Review Resources- AJAX and Rails
+## AJAX and Rails Resources
 
 * [Loading Comments via GET AJAX](https://www.youtube.com/watch?v=E8TJmwW5ayQ)
 * [Rails and AJAX, Submitting a Form](https://www.youtube.com/watch?v=XxzayZma5Ew)
 * [Adding Form Fields via AJAX](https://www.youtube.com/watch?v=BcGtDkydAug)
-* [Handlebars and JS Prototypes](https://www.youtube.com/watch?v=PT_C2211_QE)
+
+## Testing resources
+
+* [Testing Rails Applications](https://guides.rubyonrails.org/testing.html)
+* [Rails System Tests in Rspec](https://medium.com/table-xi/a-quick-guide-to-rails-system-tests-in-rspec-b6e9e8a8b5f6)
+* [Rspec Request spec docs](https://relishapp.com/rspec/rspec-rails/v/3-8/docs/request-specs/request-spec)
+* [Rspec System spec docs](https://relishapp.com/rspec/rspec-rails/docs/system-specs/system-spec)
