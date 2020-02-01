@@ -2,9 +2,9 @@
 
 ## Overview
 
-For this project, your goal is to expand upon the Rails project you did previously. The goal is to add dynamic features that are possible through jQuery, JSON API and an Object Oriented JS convention for your application. **Do not use `remote: true` in this application.**
+For this project, your goal is to expand upon the Rails project you did previously. The goal is to add dynamic features that are possible through jQuery, a JSON API and an Object Oriented JS convention for your application. **Do not use `remote: true` in this application. Your AJAX requests should retrieve JSON and not an html.erb template.**
 
-At its core, this project consists of (at least) 3 seperate AJAX requests, with each JSON response sent to custom Javascript objects to be rendered to the DOM.
+At its core, this project consists of (at least) 3 separate AJAX requests, with each JSON response sent to custom Javascript objects to be rendered to the DOM.
 
 ## Requirements
 
